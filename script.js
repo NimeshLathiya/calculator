@@ -9,7 +9,7 @@ console.log(arr);
 arr.forEach((item) => {
   item.addEventListener("click", (e) => {
     if (e.target.innerHTML == "=") {
-      string = (string);
+      string = eval(string);
       input.value = string;
     } else if (e.target.innerHTML == "AC") {
       string = "";
