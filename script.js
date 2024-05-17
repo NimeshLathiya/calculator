@@ -3,7 +3,7 @@ let buttons = document.querySelectorAll("button");
 
 let string = "";
 
-let arr = Array.from();
+let arr = Array.from(buttons);
 console.log(arr);
 
 arr.forEach((item) => {
